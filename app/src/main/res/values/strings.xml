@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Encrypt</string>
+    <string-array name="algorithm">
+        <item>DES</item>
+        <item>AES</item>
+        <item>DESede</item>
+    </string-array>
+    <string-array name="mode">
+        <item>CBC</item>
+        <item>ECB</item>
+    </string-array>
+    <string-array name="padding">
+        <item>PKCS7Padding</item>
+        <item>PKCS5Padding</item>
+        <item>NoPadding</item>
+    </string-array>
+    <string-array name="TDESKey">
+        <item>Triple</item>
+        <item>Twice</item>
+    </string-array>
+</resources>
